@@ -59,4 +59,3 @@ module.exports = {
     return queryInterface.dropTable('games');
   }
 };
-

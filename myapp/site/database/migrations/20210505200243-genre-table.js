@@ -18,7 +18,6 @@ module.exports = {
   },
 
   down:(queryInterface, Sequelize) => {
-    return queryInterface.dropTable('games');
+    return queryInterface.dropTable('genre');
   }
 };
-

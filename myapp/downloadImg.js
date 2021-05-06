@@ -13,7 +13,7 @@ async function downloadImage (dato) {
     method: 'GET',
     responseType: 'stream'
   })
- console.log(response)
+ 
   response.data.pipe(writer)
 
   return new Promise((resolve, reject) => {
