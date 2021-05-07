@@ -6,14 +6,15 @@ const dirJuegos = __dirname +'/public/file/juegos.json' ;
 async function downloadImage (dato) {  
   const urlApi = dato.thumbnail;
   let pathDate = path.resolve(__dirname + '/public/', 'images', 'juego' + dato.id + '.jpg');
-  const writer = fs.createWriteStream(pathDate);
+  
 
   const response = await axios({
     url: urlApi,
     method: 'GET',
     responseType: 'stream'
   })
- 
+
+  const writer = fs.createWriteStream(pathDate);
   response.data.pipe(writer)
 
   return new Promise((resolve, reject) => {
