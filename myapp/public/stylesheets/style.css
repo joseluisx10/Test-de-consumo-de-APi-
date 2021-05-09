@@ -1,12 +1,38 @@
-* {
-  text-decoration: none;
-  font-family: sans-serif;
-  box-sizing: border-box;
+*{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
 }
 
-#link-juegos ul{
-  float: left;
+
+nav {
+    align-content: unset;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
 }
-#link-idioma{
-  float: left;
+
+
+ul{
+    padding-top: 0px;
+    padding-left: 0px;
 }
+
+a{
+    color: white;
+    padding-left: 0;
+}
+
+header{
+    border: 1px solid #db9494;
+    height: 150px;
+    margin-top: 0%
+   
+    
+};
+
+
+
+
+

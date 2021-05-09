@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+}
+
+.box1 a{
+    color: black;
+}
+
+.box1{
+    
+    border: 2px solid rgb(228, 206, 206);
+    text-align: center;
+}
+
+
+.box2{
+   
+    border: 2px solid rgb(243, 236, 236);
+    overflow-y: scroll;
+    
+   
+}
+.contenedor{
+    
+    display: grid;
+    border-radius: 8px;
+    grid-template-columns: 1fr 3fr;
+    border: 1px solid rgb(231, 227, 227);
+    width: 97%;
+    height: 700px;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+ 
+   
+}
+
+.box2 p{
+    margin: 0;
+    line-height: 30px;
+    text-align: justify; 
+}
+
+.son-box2{
+    margin: auto;
+    width: 90%;
+    margin-top: 3%;
+}
+
+.son-box2 a{
+    color: black;
+}
+
+.contenedor2{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1f 1fr;
+    width: 97%;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.box2-1{
+    border: 1px solid grey;
+    height: 200px;
+}
+

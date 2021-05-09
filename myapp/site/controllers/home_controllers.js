@@ -3,14 +3,20 @@ const db = require("../database/models");
 
 module.exports =  {
 
-    home:  async(req, res) => {
+    home:async(req, res) => {
+        
+        let games = await db.Games.findAll({
+        order: [
+            ['genre', 'ASC']
+        ]
+        });
+        let genre= await db.Genre.findAll();
 
-      await db.Games.findAll()
-       .then(lista =>{
-           res.render('/home', { juegos: lista });
-       })
-
-   
+        Promise.all( [games, genre] )
+        .then(( [games, genre] ) => {
+            
+            return res.render('home', {games, genre})
+        }) 
     }
 
 }
