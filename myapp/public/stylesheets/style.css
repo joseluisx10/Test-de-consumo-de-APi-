@@ -1,7 +1,7 @@
 *{
     text-decoration: none;
     font-family: sans-serif;
-    color: black;
+    color: rgba(134, 132, 132, 0.856);
 }
 
 
@@ -9,15 +9,10 @@ nav {
     align-content: unset;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
 }
 
-
-ul{
-    padding-top: 0px;
-    padding-left: 0px;
-}
 
 a{
     color: white;
@@ -25,10 +20,10 @@ a{
 }
 
 header{
-    border: 1px solid #db9494;
     height: 150px;
-    margin-top: 0%
-   
+    margin-top: 0%;
+    background-color: #34383d;
+    border: 1px solid #3a3f44;
     
 };
 

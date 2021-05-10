@@ -1,8 +1,28 @@
 footer{
-    border: 1px solid rgb(228, 206, 206);
+    height: 300px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#34383d
+    
+}
+.contendor-footer{
+    display: grid;
+    grid-template-columns: 1fr 0.25fr 1fr 2fr;
+    text-align: center;
+    height: 250px;
+    /* width: 80%; */
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
     
 }
 
 .box-footer{
     height: 300px;
+}
+
+.contendor-footer p a{
+    color: white;
 }

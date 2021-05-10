@@ -1,0 +1,29 @@
+.contenedor-detail{
+    display: grid;
+    margin-top: 5px;
+    background-color: #34383d;
+}
+
+.detail-box1{
+    height: 65vh;
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 2fr 0.5fr 2fr;
+    margin-top: 20px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    
+}
+
+.div-foto{
+    border: 1px solid;
+    height: 214px;
+    width: 223px;
+    margin-top: 29px;
+    border-radius: 20px;
+    margin-left: 16px;
+    contain: content;
+    }
+

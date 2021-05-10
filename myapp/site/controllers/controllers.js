@@ -17,6 +17,15 @@ module.exports =  {
             
             return res.render('home', {games, genre})
         }) 
+    },
+
+    detail: async (req, res) =>{
+
+        await db.Games.findByPk(req.params.id)
+        .then(result =>{
+            res.render('detail', {result:result});
+        });
+        
     }
 
 }

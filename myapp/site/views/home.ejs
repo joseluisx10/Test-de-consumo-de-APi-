@@ -1,5 +1,6 @@
 <%-include('header')%>
 <link rel='stylesheet' href='/stylesheets/home.css'>
+<div class="contenedor-menu">
   <div class="contenedor"> 
     <div class="box1">
       <h2>Generos</h2>
@@ -16,7 +17,7 @@
               <p><strong>Titulo: <%= elemento2.title%></strong></p>
               <p> Description: <%= elemento2.short_description%></p>
               <p><a href=<%=elemento2.game_url %>><strong>Jugar</strong> </a></p>
-              <p>Plataforma:<%=elemento2.platform%></p>
+              <p><strong> Plataforma:<%=elemento2.platform%></strong></p>
               <p>Autor:<%=elemento2.publisher%></p>
               <p>Desarrollador:<%=elemento2.developer%></p>
               <p>Fecha de lanzamiento:<%=elemento2.release_date%></p>
@@ -29,11 +30,8 @@
     </div>
   </div>
   <div class="contenedor2">
-    <div><img  src="/../../public/images/juego1.png" alt="error">
-    </div>
-  
-    <div class="box2-1">2</div>
-    <div class="box2-1">3</div>
-    <div class="box2-1">4</div> 
+    <a href="/detail/1"><img src="/images/juego1.jpg" alt=""></a>
   </div>
+</div>
+
   <%-include('footer')%>
