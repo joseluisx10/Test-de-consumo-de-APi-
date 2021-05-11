@@ -42,4 +42,16 @@ body{
     .div-detalle{
         padding-left: 3%;
     }
+
+    .div-detalle h1{
+        font-size: 17px;
+        
+    }
+    .div-detalle h2{
+        font-size: 14px;
+    }
+    .div-detalle p{
+        font-size: 13px;
+        font-style: italic;
+    }
 }
