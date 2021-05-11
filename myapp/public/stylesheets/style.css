@@ -1,30 +1,26 @@
 *{
     text-decoration: none;
     font-family: sans-serif;
-    color: rgba(134, 132, 132, 0.856);
+    color: #888;
+
 }
-
-
 nav {
     align-content: unset;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction:row;
     text-align: center;
 }
-
-
 a{
-    color: white;
     padding-left: 0;
 }
-
+a ul{
+    color: #888;
+}
 header{
-    height: 150px;
+    height: 85px;
     margin-top: 0%;
-    background-color: #34383d;
-    border: 1px solid #3a3f44;
-    
+    background-color: #34383d   
 };
 
 

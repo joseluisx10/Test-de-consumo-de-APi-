@@ -4,7 +4,8 @@ footer{
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    background-color:#34383d
+    background-color:#34383d;
+    
     
 }
 .contendor-footer{
@@ -24,5 +25,5 @@ footer{
 }
 
 .contendor-footer p a{
-    color: white;
+    color: #888;
 }

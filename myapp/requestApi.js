@@ -1,16 +1,16 @@
 require ('dotenv').config()
 const fetch = require("node-fetch");
 const fs = require('fs');
-const dirJuegos = __dirname +'/public/file/juegos.json' ;
+const dirfileJson = __dirname + process.env.PATH_FILE_JSON;
 
 fetch(process.env.API_URL)
 .then((respuesta)=>{
     return respuesta.json();
 })
 .then(resultado =>{
-    let leerArchivoJson= fs.readFileSync(dirJuegos, 'utf8');
+    let leerArchivoJson= fs.readFileSync(dirfileJson, 'utf8');
     if(leerArchivoJson.length == 0){
-        fs.writeFileSync(dirJuegos, JSON.stringify(resultado));
+        fs.writeFileSync(dirfileJson, JSON.stringify(resultado));
             
     }
 })

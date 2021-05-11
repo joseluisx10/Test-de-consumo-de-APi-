@@ -1,13 +1,20 @@
 <%-include('header')%>
 <link rel='stylesheet' href='/stylesheets/detail.css'>
 <div class="contenedor-detail">
-    <div class="detail-box1">
-      <div class="div-foto"><img src="<%= result.thumbnail%>" alt=""></div>
-      <div class=""><p></p></div>
-      <div class="div-detalle"></div>
+  <div class="detail-box1">
+    <div class="div-foto"><img src="<%= result.thumbnail%>" alt=""></div>
+  </div>
+  <div>
+    <div class="div-detalle">
+      <h1><%= result.title%></h1>
+      <p>DESCRIPCION: <%=result.short_description%></p>      
+      <p>PLATAFORMA: <cite><%=result.platform%></cite></p>
+      <p>AUTOR: <strong><%=result.publisher%></strong></p>
+      <p>DESARROLLADOR: <%=result.developer%></p>
+      <p>FECHA DE LANZAMIENTO: <strong><%=result.release_date%></strong></p>
+      <P><strong><a href='<%=result.game_url %>'"></a>ver mas detalle</strong></P>
     </div>
-    <div>
+  </div>
 
-    </div>
 </div>
 <%-include('footer')%>
