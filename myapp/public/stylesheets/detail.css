@@ -1,15 +1,21 @@
 body{
     margin: 0;
     background-image: url("");
+    background: #1b2838;
 }
 .detail-box1{
     margin-top: 5px;
+    background-image: url(../images/phantasy.gif);
+    background-size: cover;
 }
 .div-foto{
     height: 27vh;
     margin-top: 17px;
     contain: content;
     padding-top: -1px;
+    background-image: url("../images/phantasy.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
     }
 
 .div-detalle{

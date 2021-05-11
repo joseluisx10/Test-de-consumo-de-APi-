@@ -13,11 +13,9 @@ async function downloadImage (datos) {
     .then((response) => {
         console.log("Redimensionando Imagen")
         return sharp(response.data)
-        .resize(182, 103, {
-          fit:'contain',
-          //background:{r:70, g:59, b:59, alpha:1},
-          filter:{r:70, g:68, b:68, alpha:0.3}
-        })
+        .gamma()
+        .grayscale()
+        .resize(182, 103)
         .toFile(dirFileImg)
      
     })

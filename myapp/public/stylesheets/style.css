@@ -1,7 +1,7 @@
 *{
     text-decoration: none;
     font-family: sans-serif;
-    color: #888;
+    color: #c6d4df;
 
 }
 nav {
@@ -15,12 +15,12 @@ a{
     padding-left: 0;
 }
 a ul{
-    color: #888;
+    color: #c6d4df;
 }
 header{
     height: 85px;
     margin-top: 0%;
-    background-color: #34383d   
+    background-color: black;   
 };
 
 
