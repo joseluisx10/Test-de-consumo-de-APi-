@@ -3,13 +3,10 @@ Nombre de la página:  GameStart
 
 Game Start es un sitio en el que te vas a aventurar en un mundo de información detallada sobre juegos y accesos a plataformas donde pondrás a juego tus habilidades  para que tu visita sea de tu agrado. 
 
-La página consta de una vista home en la que te encontrarás con información detallada por género y una gran variedad de juegos con sus respectivas  fotos en blanco y negro que resaltan con la  portada de la pagina.
+La página consta de una vista home en la que te encontrarás con información detallada por género y una gran variedad de juegos con sus respectivos fotos en blanco y negro que resaltan con la  portada de la pagina.
 Para que tu visita tenga un toque, también consta de una vista “detalle” .al cual tendrás acceso a través de las fotos.
 
-
 La página se diseñó completamente con javascript y nodeJS. 
-
-
 
 Primer Punto
 
@@ -19,8 +16,7 @@ Misma que tiene que ejecutar o correr. mediante el siguiente comando (node  requ
 Una vez ejecutada la acción se generará un archivo JSON con toda la lista.
 
 En este punto antes de ejecutar el archivo:
-
-debe cambiar el nombre del archivo  “.env.example” que se encuentra en la carpeta myapp  a “.env ”
+debe cambiar el nombre del archivo “.env.example” que se encuentra en la carpeta myapp  a “.env ”
 completar API_URL= http……
 guardar
 
