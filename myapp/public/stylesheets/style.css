@@ -6,7 +6,6 @@
 }
 
 .logo{
-    margin-top: 5px;
     margin-left: 3%;
 }
 .logo a{
@@ -26,11 +25,12 @@
 .link-home {
     float: right;
     margin-top: 2px;
-    margin-right: 6%;
+    margin-right: 4%;
 }
 
 header{
     height: 69px;
+    background-color: black;
 }
 
 
